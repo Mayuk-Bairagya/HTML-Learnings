@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- These are heading tags -->
+    <h1>Books to Read</h1>
+    <h2>Books to Read</h2>
+    <h3>Books to Read</h3>
+    <h4>Books to Read</h4>
+    <h5>Books to Read</h5>
+    <h6>Books to Read</h6>
+
+    <p>
+        There are a lot of books to read
+    </p>
+
+    <!-- These are anchor tag --> 
+    <!-- Example of absolute link -->
+    <a href="https://www.google.com/">Click here to open Google Homepage</a>
+    <!-- Example of relative link -->
+    <a href="/Chapter-2/about.html">Go to About Page</a>
+    <br>
+    <hr>
+
+    <!-- This is Image Tag -->
+    <!-- Example of absolute link -->
+    <img src="https://plus.unsplash.com/premium_photo-1673971700988-346588461fa7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2FuZGVyaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Image loading failed" width="200px">
+    <!-- Example of relative link -->
+    <img src="/Chapter-2/Sample.jpg" alt="Image loading failed" width="200px">
+    <br>
+    <hr>
+
+    <!-- Bold, Italic and Underline Tags -->
+    <b>This is bold</b> <br>
+    <i>This is italic</i> <br>
+    <u>This is underline</u> <br>
+    <hr>
+
+    <!-- Superscript and Subscript -->
+    <p>CO <sub>2</sub></p>
+    <p>a <sup>2</sup>+ b <sup>2</sup>+ c <sup>2</sup></p>
+    <hr>
+
+    <!-- This is pre tag -->
+    <p><b>Sample C# Code:</b></p>
+    <pre>
+        using System;
+
+        namespace Inheritance {
+
+        // base class
+        class Animal { 
+
+            public string name;
+
+            public void display() {
+            Console.WriteLine("I am an animal");
+            }
+            
+        } 
+        
+        // derived class of Animal 
+        class Dog : Animal {
+            
+            public void getName() {
+            Console.WriteLine("My name is " + name);
+            }
+        }
+
+        class Program {
+
+            static void Main(string[] args) {
+
+            // object of derived class
+            Dog labrador = new Dog();
+
+            // access field and method of base class
+            labrador.name = "Rohu";
+            labrador.display();
+
+            // access method from own class
+            labrador.getName();
+
+            Console.ReadLine();
+            }
+
+        }
+        }
+    </pre>
+   
+</body>
+</html>
