@@ -1,5 +1,8 @@
 # HTML-Learnings
 This repository contains most of the learning stuffs regarding HTML. Kindly have a look at the README file before exploring this folder.
+
+Editor: Visual Studio Code
+
 Details of implementation for all the chapters are as follows:
 --> Chapter-1:
         1. HTML boilerplate
