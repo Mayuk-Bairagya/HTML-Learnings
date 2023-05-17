@@ -17,7 +17,7 @@ Details of implementation for all the chapters are as follows:
         4. Superscript and subscript tags
         5. Pre tag - Preformatted tag, basically this tag helps us to display the text exactly same as written in the HTML source code                        i.e. it preserves both spaces and line breaks.
        
---> Chpter-3:
+--> Chapter-3:
         1. Header, main and footer tags
         2. Nav tag
         3. Target attribute in anchor tag
